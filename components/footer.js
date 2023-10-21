@@ -5,12 +5,12 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-  <footer>
-      <section class="hero is-main-bg p-4">
+      <section class="is-main-bg p-4">
         <div class="columns">
           <div class="column is-white is-four-fifths">
             Technical Support : support@gmail.com
           </div>
+          <div class="is-left-border mt-3"></div>
           <div class="column">
             <div class="columns">
               <section class="column has-text-centered">
@@ -30,7 +30,6 @@ class Footer extends HTMLElement {
         </div>
         <div class="is-white has-text-centered">Copyright Al-x org ©2023</div>
       </section>
-    </footer> 
     `;
   }
 }

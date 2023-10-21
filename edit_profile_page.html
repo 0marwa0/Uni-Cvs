@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/bulma.min.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script
+      src="components/PersonalInfo_edit.js"
+      type="text/javascript"
+      defer
+    ></script>
+  </head>
+  <body>
+    <header-component></header-component>
+    <edit-infocomponent></edit-infocomponent>
+    <div
+      class="box mx-4 mb-6 is-flex is-flex-direction-row is-justify-content-space-between"
+    >
+      <div class="is-flex is-flex-direction-row">
+        <img
+          id="personal_btn"
+          class="is-pointer mx-2"
+          src="./assets/icons/publication.svg"
+        />
+
+        <p class="is-main is-font-md">Publication</p>
+      </div>
+      <img
+        id="personal_btn"
+        class="is-pointer"
+        src="./assets/icons/down-arrow.svg"
+      />
+    </div>
+    <div
+      class="box mx-4 mb-6 is-flex is-flex-direction-row is-justify-content-space-between"
+    >
+      <div class="is-flex is-flex-direction-row">
+        <img
+          id="personal_btn"
+          class="is-pointer mx-2"
+          src="./assets/icons/link.svg"
+        />
+
+        <p class="is-main is-font-md">Links</p>
+      </div>
+      <img
+        id="personal_btn"
+        class="is-pointer"
+        src="./assets/icons/down-arrow.svg"
+      />
+    </div>
+    <footer-component></footer-component>
+  </body>
+  <script src="./index.js"></script>
+</html>

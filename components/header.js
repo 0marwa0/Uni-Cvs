@@ -6,11 +6,10 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <header>
-      <section class="hero is-main-bg">
+      <section class="hero py-3 is-main-bg">
       <div class="is-flex hero-body is-justify-content-space-between">
         <div>
-          <p class="title is-white mb-20">Babylon University</p>
-          <p class="subtitle is-white">Information technology collage</p>
+          <p class="title is-white mb-20">Organization Name</p>
         </div>
         <div class="is-white-bg p-4 is-rounded button" style="height: auto">
           <img src="./assets/icons/uni-logo.svg" />
