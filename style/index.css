@@ -3,7 +3,10 @@
   margin: 0;
   text-transform: capitalize;
 }
-
+.publication {
+  height: 520px;
+  overflow-y: auto;
+}
 :root {
   --main-color: #4b58a0;
   --main-light-color: #afb6e4;
@@ -15,6 +18,7 @@
 .is-pointer {
   cursor: pointer;
 }
+
 .is-main-bg {
   background-color: var(--main-color) !important;
 }

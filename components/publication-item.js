@@ -5,7 +5,7 @@ class PublicationItem extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-  <div id="modal-js-example" class="modal custom-modal">
+  <div id="modal-edit" class="modal custom-modal">
       <div class="modal-background"></div>
 
       <div class="modal-content modal-card is-full-width">

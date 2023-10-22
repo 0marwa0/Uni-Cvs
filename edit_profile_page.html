@@ -8,7 +8,22 @@
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
     <script
+      src="components/publications_edit.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
       src="components/PersonalInfo_edit.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="components/publication-item.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script
+      src="components/Delete-modal.js"
       type="text/javascript"
       defer
     ></script>
@@ -16,24 +31,8 @@
   <body>
     <header-component></header-component>
     <edit-infocomponent></edit-infocomponent>
-    <div
-      class="box mx-4 mb-6 is-flex is-flex-direction-row is-justify-content-space-between"
-    >
-      <div class="is-flex is-flex-direction-row">
-        <img
-          id="personal_btn"
-          class="is-pointer mx-2"
-          src="./assets/icons/publication.svg"
-        />
-
-        <p class="is-main is-font-md">Publication</p>
-      </div>
-      <img
-        id="personal_btn"
-        class="is-pointer"
-        src="./assets/icons/down-arrow.svg"
-      />
-    </div>
+    <edit-publications-component></edit-publications-component>
+    <delete-component></delete-component>
     <div
       class="box mx-4 mb-6 is-flex is-flex-direction-row is-justify-content-space-between"
     >
@@ -52,6 +51,8 @@
         src="./assets/icons/down-arrow.svg"
       />
     </div>
+
+    <publication-component></publication-component>
     <footer-component></footer-component>
   </body>
   <script src="./index.js"></script>
