@@ -27,31 +27,20 @@
       type="text/javascript"
       defer
     ></script>
+    <script
+      src="components/links_edit.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="components/linksInfo.js" type="text/javascript" defer></script>
   </head>
   <body>
     <header-component></header-component>
     <edit-infocomponent></edit-infocomponent>
     <edit-publications-component></edit-publications-component>
     <delete-component></delete-component>
-    <div
-      class="box mx-4 mb-6 is-flex is-flex-direction-row is-justify-content-space-between"
-    >
-      <div class="is-flex is-flex-direction-row">
-        <img
-          id="personal_btn"
-          class="is-pointer mx-2"
-          src="./assets/icons/link.svg"
-        />
-
-        <p class="is-main is-font-md">Links</p>
-      </div>
-      <img
-        id="personal_btn"
-        class="is-pointer"
-        src="./assets/icons/down-arrow.svg"
-      />
-    </div>
-
+    <edit-links-component></edit-links-component>
+    <links-info-component></links-info-component>
     <publication-component></publication-component>
     <footer-component></footer-component>
   </body>

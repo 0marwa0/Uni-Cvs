@@ -3,14 +3,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const publication_part = document.getElementById("publication_part");
   const personal_btn = document.getElementById("personal_btn");
   const personal_part = document.getElementById("personal_part");
+  const links_part = document.getElementById("links_part");
+  const links_btn = document.getElementById("links_btn");
   personal_btn.addEventListener("click", () => {
     personal_part.classList.toggle("hide");
   });
   publication_btn.addEventListener("click", () => {
-    console.log("publication");
     publication_part.classList.toggle("hide");
   });
-
+  links_btn.addEventListener("click", () => {
+    links_part.classList.toggle("hide");
+  });
   // const lang_list = document.getElementById("lang-list");
   // const login_list = document.getElementById("login-list");
   const login_btn = document.getElementById("login-btn");
@@ -94,6 +97,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Add a click event on buttons to open a specific modal
+
+  // edit publications modal
   (document.querySelectorAll(".modal-trigger-edit") || []).forEach(
     ($trigger) => {
       const modal = $trigger.dataset.target;
@@ -104,7 +109,18 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   );
-  // Add a click event on buttons to open a specific modal
+  // edit links modal
+  (document.querySelectorAll(".link-trigger-edit") || []).forEach(
+    ($trigger) => {
+      const modal = $trigger.dataset.target;
+      const $target = document.getElementById(modal);
+
+      $trigger.addEventListener("click", () => {
+        openModal($target);
+      });
+    }
+  );
+  // delete publications modal
   (document.querySelectorAll(".modal-trigger-delete") || []).forEach(
     ($trigger) => {
       const modal = $trigger.dataset.target;

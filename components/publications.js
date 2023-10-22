@@ -53,8 +53,8 @@ class Publications extends HTMLElement {
             style="overflow-y: auto; height: 310px"
           >
             <div
-              data-target="modal-js-example"
-              class="js-modal-trigger is-clickable is-gray-bg p-2 my-2 is-full-width"
+              data-target="modal-edit"
+              class="modal-trigger-edit is-clickable is-gray-bg p-2 my-2 is-full-width"
             >
               <div class="my-2 is-main">
                 Soft computing approach on estimating the lateral confinement
@@ -65,8 +65,8 @@ class Publications extends HTMLElement {
               </div>
             </div>
             <div
-              data-target="modal-js-example"
-              class="js-modal-trigger is-clickable is-gray-bg p-2 my-2 is-full-width"
+              data-target="modal-edit"
+              class="modal-trigger-edit is-clickable is-gray-bg p-2 my-2 is-full-width"
             >
               <div class="my-2 is-main">
                 Soft computing approach on estimating the lateral confinement
@@ -77,8 +77,8 @@ class Publications extends HTMLElement {
               </div>
             </div>
             <div
-              data-target="modal-js-example"
-              class="js-modal-trigger is-clickable is-gray-bg p-2 my-2 is-full-width"
+              data-target="modal-edit"
+              class="modal-trigger-edit is-clickable is-gray-bg p-2 my-2 is-full-width"
             >
               <div class="my-2 is-main">
                 Soft computing approach on estimating the lateral confinement

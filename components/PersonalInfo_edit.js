@@ -6,7 +6,7 @@ class PersonalInfoEdit extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <div  class="is-flex is-flex-direction-row is-align-items-center">
- <div
+    <div
       class="box is-full-width m-4 is-flex is-flex-direction-row is-justify-content-space-between"
     >
       <p class="is-main is-font-md">Personal Info</p>
@@ -17,7 +17,7 @@ class PersonalInfoEdit extends HTMLElement {
       />
     </div>
     <button class="button is-rounded is-main-bg is-white mr-3"> Save</button>
-</div>
+    </div>
     <div
       id="personal_part"
       class="is-flex-wrap-wrap mx-4 is-flex is-flex-direction-column mb-6"
