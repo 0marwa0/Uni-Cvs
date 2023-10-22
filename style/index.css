@@ -3,6 +3,21 @@
   margin: 0;
   text-transform: capitalize;
 }
+#color {
+  border: none;
+  outline: 0;
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+}
+
+#color::-moz-color-swatch {
+  border: none;
+}
+
+#color::-webkit-color-swatch {
+  border: none;
+}
 .publication {
   height: 520px;
   overflow-y: auto;
