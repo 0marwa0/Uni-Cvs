@@ -8,11 +8,49 @@
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
 
-    <title>Document</title>
+    <title>Welcome!</title>
   </head>
   <body>
     <header-component></header-component>
-
+    <div class="box m-6">
+      <div
+        class="is-flex is-flex-direction-column is-align-items-center is-flex-wrap-wrap"
+      >
+        <div class="is-flex is-flex-direction-column is-align-items-center">
+          <div class="is-flex is-flex-direction-column">
+            <p class="is-main my-2 is-font-md">Full name</p>
+            <input
+              class="input is-normal is-full-width"
+              type="text"
+              placeholder="Jhon deo"
+            />
+          </div>
+          <div class="is-flex is-flex-direction-column my-3">
+            <p class="is-main my-2 is-font-md">Email</p>
+            <input
+              class="input is-normal is-full-width"
+              type="text"
+              placeholder="Jhon@gmail.com"
+            />
+          </div>
+          <div class="is-flex is-flex-direction-column my-3">
+            <p class="is-main my-2 is-font-md">Password</p>
+            <input class="input is-normal is-full-width" type="password" />
+          </div>
+        </div>
+      </div>
+      <div
+        class="is-flex is-flex-direction-column is-align-items-center is-justify-content-center"
+      >
+        <div>
+          <button class="button my-4 is-main-bg is-rounded is-white">
+            Register
+          </button>
+        </div>
+        <p class="is-font-md is-main my-1">Or Login with</p>
+        <button class="button is-danger is-rounded">Login with Google</button>
+      </div>
+    </div>
     <footer-component></footer-component>
   </body>
   <script src="./index.js"></script>

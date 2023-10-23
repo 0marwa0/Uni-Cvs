@@ -15,25 +15,27 @@ class Header extends HTMLElement {
           <img src="./assets/icons/uni-logo.svg" />
         </div>
       </div>
-      <div class="is-flex mx-6">
+      <div class="is-flex mx-3 head-btn" >
         <!-- language dropdown -->
-        <div id="lang-list" class="navbar-item has-dropdown mr-4">
-          <a id="lang-btn"> <img src="./assets/icons/lang-icon.svg" /> </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item"> English </a>
-            <a class="navbar-item"> Arabic </a>
-          </div>
-        </div>
+
+
+         <div class="lang">
+      <img id="lang-btn" src="./assets/icons/lang-icon.svg" />
+      <div class="lang-content">
+        <a >Arabic</a>
+        <a >English</a>
+      </div>
+    </div>
+       
         <!--  -->
 
         <!-- login/logout dropdown -->
-        <div id="login-list" class="navbar-item has-dropdown">
-          <a id="login-btn"> <img src="./assets/icons/login-icon.svg" /> </a>
-          <div class="navbar-dropdown">
-            <a class="navbar-item"> Login </a>
-            <a class="navbar-item"> SingUp </a>
-          </div>
-        </div>
+     <div class="login">
+      <img id="lang-btn" src="./assets/icons/login-icon.svg" />
+      <div class="login-content">
+        <a >Login</a>
+      </div>
+    </div>
         <!--  -->
       </div>
     </section>
