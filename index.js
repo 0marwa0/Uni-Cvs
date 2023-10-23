@@ -151,3 +151,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+/// change the main color by the color input in the setting page
+const colorPicker = document.getElementById("colorPicker");
+
+colorPicker.addEventListener("input", function () {
+  const selectedColor = colorPicker.value;
+  document.documentElement.style.setProperty("--main-color", selectedColor);
+});
